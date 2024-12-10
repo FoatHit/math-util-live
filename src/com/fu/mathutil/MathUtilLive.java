@@ -18,9 +18,11 @@ public class MathUtilLive {
         System.out.println("expected: 5! = 120; actual: " + MathUtil.getFactorial(5));
         System.out.println("expected: 0! = 1; actual: " + MathUtil.getFactorial(0));
         System.out.println("expected: 1! = 1; actual: " + MathUtil.getFactorial(1));
-        System.out.println("expected: 21! = Invalid value; actual: " + MathUtil.getFactorial(21));
-
-
+        //System.out.println("expected: 21! = Invalid value; actual: " + MathUtil.getFactorial(21));
+        
+        
+        //Thêm code sau lần đầu tiên làm chuyện ấy - code lên sever 6:15PM
+         System.out.println("expected: 10! = 3628800; actual: " + MathUtil.getFactorial(10));
     }
     
 }
